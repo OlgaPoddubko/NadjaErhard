@@ -53,7 +53,7 @@ nav a:hover {
 }
 
 .hero {
-    margin-top: 120px;
+    margin-top: 60px;
     text-align: center;
     padding: 2rem;
     background-color: #f5f5f5;
@@ -84,13 +84,13 @@ p {
 header {
     background: #f5f5f5;
     text-align: center;
-    padding: 2rem 1rem;
+    padding: 2rem 0;
     border-bottom: 2px solid #ddd;
 }
 
 .profile-pic {
     max-width: 160px;
-    border-radius: 100px;
+    border-radius: 5px;
     margin-bottom: 1rem;
 }
 
@@ -149,7 +149,7 @@ form input, form textarea {
     padding: 0.8rem;
     font-size: 1rem;
     border: 1px solid #ccc;
-    border-radius: 8px;
+    border-radius: 5px;
     width: 100%;
 }
 
@@ -159,7 +159,7 @@ form button {
     background-color: #333;
     color: white;
     border: none;
-    border-radius: 8px;
+    border-radius: 5px;
     cursor: pointer;
     transition: background 0.3s;
 }
@@ -170,7 +170,7 @@ form button:hover {
 
 .map-container {
     margin-top: 1rem;
-    border-radius: 8px;
+    border-radius: 5px;
     overflow: hidden;
 }
 .burger {
@@ -256,7 +256,7 @@ form button:hover {
 .testimonial {
     background: #ffffff;
     padding: 1.5rem 2rem;
-    border-radius: 12px;
+    border-radius: 5px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
     font-style: italic;
 }
@@ -272,10 +272,10 @@ form button:hover {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #2e7d32;
+    background-color: #46574a;
     color: #fff;
     padding: 0.75rem 1.25rem;
-    border-radius: 50px;
+    border-radius: 5px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     text-decoration: none;
     font-weight: 500;
@@ -284,6 +284,6 @@ form button:hover {
 }
 
 .floating-contact-button:hover {
-    background-color: #1b5e20;
+    background-color: #406949;
     transform: scale(1.05);
 }
