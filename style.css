@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 1rem 2rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #222;
+}
+
+nav ul {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #0066cc;
+}
+
+.hero {
+    margin-top: 120px;
+    text-align: center;
+    padding: 2rem;
+    background-color: #f5f5f5;
+    border-bottom: 2px solid #ddd;
+}
+
+
+h1, h2, h3 {
+    font-family: 'Inter', sans-serif;
+    color: #222;
+}
+
+h2 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 1.5rem;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 2rem;
+}
+
+header {
+    background: #f5f5f5;
+    text-align: center;
+    padding: 2rem 1rem;
+    border-bottom: 2px solid #ddd;
+}
+
+.profile-pic {
+    max-width: 160px;
+    border-radius: 100px;
+    margin-bottom: 1rem;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+blockquote {
+    font-style: italic;
+    margin-top: 1rem;
+    color: #555;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+.price-table ul {
+    list-style: none;
+    margin-bottom: 1.5rem;
+}
+
+.price-table li {
+    padding: 0.3rem 0;
+}
+
+.contact a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+.contact h3 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #eee;
+    font-size: 0.9rem;
+    color: #777;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+form input, form textarea {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 100%;
+}
+
+form button {
+    padding: 0.8rem;
+    font-size: 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+.map-container {
+    margin-top: 1rem;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.burger {
+    display: none;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: #333;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .burger {
+        display: block;
+    }
+
+    nav {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        background: #fff;
+        border-top: 1px solid #ddd;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem 0;
+    }
+
+    nav.active {
+        display: flex;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+.hero {
+    background-color: #f5f5f5;
+}
+.bio {
+    background-color: #fff0f0;
+}
+
+.prices {
+    background-color: #fffaf0;
+}
+
+.contact {
+    background-color: #f5f5f5;
+}
+
+.reveal {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.reveal.visible {
+    opacity: 1;
+    transform: none;
+}
+.testimonials {
+    background-color: #eaf6ff;
+    padding: 4rem 1.5rem;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.testimonial-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.testimonial {
+    background: #ffffff;
+    padding: 1.5rem 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    font-style: italic;
+}
+
+.testimonial span {
+    display: block;
+    margin-top: 1rem;
+    font-weight: 500;
+    color: #555;
+}
+
+.floating-contact-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #2e7d32;
+    color: #fff;
+    padding: 0.75rem 1.25rem;
+    border-radius: 50px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: 500;
+    z-index: 1000;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.floating-contact-button:hover {
+    background-color: #1b5e20;
+    transform: scale(1.05);
+}
