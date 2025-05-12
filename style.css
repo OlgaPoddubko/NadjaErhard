@@ -249,7 +249,7 @@ form button:hover {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    max-width: 800px;
+    max-width: 836px;
     margin: 0 auto;
 }
 
