@@ -78,6 +78,13 @@ p {
     margin: auto;
     padding: 2rem;
 }
+.container p{
+    text-align: justify;
+}
+
+.bio h2{
+    text-align: center;
+}
 
 header {
     
@@ -367,7 +374,7 @@ form button:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(45deg, rgba(0,0,0,0.1), rgba(0,0,0,0.05));
+    background: linear-gradient(135deg, rgba(0,0,0,0.03), rgba(0,0,0,0.01));
     pointer-events: none;
     z-index: 1;
 }
@@ -377,7 +384,6 @@ form button:hover {
     .gallery-grid {
         grid-template-columns: 1fr;
         gap: 1.5rem;
-        padding: 0 1rem;
     }
     
     .gallery-item h3 {
