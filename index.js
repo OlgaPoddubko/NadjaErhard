@@ -27,16 +27,16 @@ const translations = {
         // Gallery section
         'gallery-title': 'Galerie',
         'gallery-qualifications': 'Meine Qualifikationen',
-        'gallery-qualifications-desc': 'Mein Abschlusszertifikat der Belarussischen Staatlichen Musikakademie',
-        'gallery-church-music': 'Kirchenmusik',
+        'gallery-qualifications-desc': 'Mein Abschlusszertifikat des C-Kurses für Kirchenmusiker im Bereich Chorleitung und Orgelspiel in Augsburg',
+        'gallery-church-music': 'Leistung',
         'gallery-church-music-desc': 'Meine Leidenschaft für Kirchenmusik und Orgelspiel',
         'gallery-organ-playing': 'Orgelspiel',
         'gallery-organ-playing-desc': 'Ein Beispiel meines Orgelspiels',
         'gallery-teaching': 'Unterricht mit Schülern',
-        'gallery-teaching-desc': 'Gemeinsam mit meinen Schülern beim Unterricht',
-        'gallery-student-1': 'Schüler-Vorspiel 1',
+        'gallery-teaching-desc': 'Zusammen mit meinen Schülern nach dem Konzert',
+        'gallery-student-1': 'Schüler Vorspiel',
         'gallery-student-1-desc': 'Ein Schüler zeigt sein Können am Klavier',
-        'gallery-student-2': 'Schüler-Vorspiel 2',
+        'gallery-student-2': 'Schüler Vorspiel',
         'gallery-student-2-desc': 'Weiterer Schüler beim Vorspielen',
         
         // Prices section
@@ -96,7 +96,7 @@ const translations = {
         // Gallery section
         'gallery-title': 'Галерея',
         'gallery-qualifications': 'Мои квалификации',
-        'gallery-qualifications-desc': 'Мой диплом об окончании Академии музыки',
+        'gallery-qualifications-desc': 'Мой диплом об окончании C-курса для церковных музыкантов в области хорового дирижирования и игры на органе в Аугсбурге',
         'gallery-church-music': 'Исполнительство',
         'gallery-church-music-desc': 'Моя любовь к церковной музыке и игре на органе',
         'gallery-organ-playing': 'Игра на органе',
