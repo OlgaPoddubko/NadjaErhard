@@ -27,7 +27,6 @@ html {
     width: 100%;
     z-index: 1000;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    position: relative;
 }
 
 .logo {
@@ -419,6 +418,7 @@ form button:hover {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    z-index: 1001;
 }
 
 .lang-btn {
