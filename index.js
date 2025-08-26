@@ -44,6 +44,13 @@ const translations = {
         'prices-individual': 'Einzelstunden',
         'prices-packages': 'Pakete',
         'prices-theory': 'Theoriestunde',
+        'prices-30min': '30 Min – 25 €',
+        'prices-45min': '45 Min – 35 €',
+        'prices-60min': '60 Min – 45 €',
+        'prices-theory-45min': 'Theoriestunde (45 Min) – 45 €',
+        'prices-package-4x45': '4×45 Min – 135 €',
+        'prices-package-5x45': '5×45 Min – 165 €',
+        'prices-package-4x30': '4×30 Min – 95 €',
         'prices-home-visit': 'Hausbesuch ab 45 Minuten möglich, Anfahrt bis 30 €/Monat',
         
         // Testimonials section
@@ -113,7 +120,14 @@ const translations = {
         'prices-individual': 'Индивидуальные уроки',
         'prices-packages': 'Пакеты',
         'prices-theory': 'Теория музыки',
-        'prices-home-visit': 'Выезд на дом возможен от 45 минут, проезд до 30 €/месяц',
+        'prices-30min': '30 мин – 25 €',
+        'prices-45min': '45 мин – 35 €',
+        'prices-60min': '60 мин – 45 €',
+        'prices-theory-45min': 'Теория музыки (45 мин) – 45 €',
+        'prices-package-4x45': '4×45 мин – 135 €',
+        'prices-package-5x45': '5×45 мин – 165 €',
+        'prices-package-4x30': '4×30 мин – 95 €',
+        'prices-home-visit': 'Выезд на дом возможен от 45 мин, проезд до 30 €/месяц',
         
         // Testimonials section
         'testimonials-title': 'Что говорят мои ученики',
