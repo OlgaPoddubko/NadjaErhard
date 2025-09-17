@@ -31,13 +31,13 @@ const translations = {
         'gallery-church-music': 'Leistung',
         'gallery-church-music-desc': 'Meine Leidenschaft für Kirchenmusik und Orgelspiel',
         'gallery-organ-playing': 'Orgelspiel',
-        'gallery-organ-playing-desc': 'Ein Beispiel meines Orgelspiels',
+        'gallery-organ-playing-desc': 'Ein Beispiel meines Orgelspiels - Sigfrid Karg-Elert Nun danket alle Gott',
         'gallery-teaching': 'Unterricht mit Schülern',
         'gallery-teaching-desc': 'Zusammen mit meinen Schülern nach dem Konzert',
         'gallery-student-1': 'Schüler Vorspiel',
-        'gallery-student-1-desc': 'Ein Schüler zeigt sein Können am Klavier',
+        'gallery-student-1-desc': 'Ein Schüler zeigt sein Können am Klavier - William Hollock Tarantella',
         'gallery-student-2': 'Schüler Vorspiel',
-        'gallery-student-2-desc': 'Weiterer Schüler beim Vorspielen',
+        'gallery-student-2-desc': 'Weiterer Schüler beim Vorspielen - Friedrich Kuhlau Sonatine',
         
         // Prices section
         'prices-title': 'Preise',
@@ -107,13 +107,13 @@ const translations = {
         'gallery-church-music': 'Исполнительство',
         'gallery-church-music-desc': 'Моя любовь к церковной музыке и игре на органе',
         'gallery-organ-playing': 'Игра на органе',
-        'gallery-organ-playing-desc': 'Пример моей игры на органе',
+        'gallery-organ-playing-desc': 'Пример моей игры на органе - Sigfrid Karg-Elert Nun danket alle Gott',
         'gallery-teaching': 'Занятия с учениками',
         'gallery-teaching-desc': 'Вместе с моими учениками после концерта',
         'gallery-student-1': 'Выступление ученицы',
-        'gallery-student-1-desc': 'Ученица демонстрирует свои навыки игры на фортепиано',
+        'gallery-student-1-desc': 'Ученица демонстрирует свои навыки игры на фортепиано - William Hollock Tarantella',
         'gallery-student-2': 'Выступление ученицы',
-        'gallery-student-2-desc': 'Еще одна ученица во время выступления',
+        'gallery-student-2-desc': 'Еще одна ученица во время выступления - Friedrich Kuhlau Sonatine',
         
         // Prices section
         'prices-title': 'Цены',
@@ -258,6 +258,17 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Initialize language switcher
     initLanguageSwitcher();
+    
+    // Form reset functionality
+    const contactForm = document.querySelector('form[action^="mailto:"]');
+    if (contactForm) {
+        contactForm.addEventListener('submit', function() {
+            // Clear form fields after a short delay to allow mailto to work
+            setTimeout(() => {
+                contactForm.reset();
+            }, 100);
+        });
+    }
     
     // Reveal animation
     const reveals = document.querySelectorAll('.reveal');
